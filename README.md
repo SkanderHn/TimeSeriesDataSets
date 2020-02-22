@@ -3,6 +3,14 @@
 Repo containing csv versions of canonical data sets used for benchmarking and analyzing time series analysis and forecasting models. 
 Intended to be easily callable from an ML script or Jupyter notebook and used for tutorial or pedagogical purposes. 
 
+## Example of loading csv into script directly from repo:
+
+```
+import pandas as pd
+air_passengers_url = ("https://github.com/SkanderHn/TimeSeriesDataSets/raw/master/data/air_passengers.csv")
+df = pd.read_csv(air_passengers_url)
+```
+
 ## Air Passengers data set:
 **Frequency:** monthly.    
 **Metric:** Total number of international air passengers.    
