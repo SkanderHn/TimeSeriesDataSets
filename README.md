@@ -1,7 +1,7 @@
 # TimeSeriesDataSets
 
 Repo containing csv versions of canonical data sets used for benchmarking and analyzing time series analysis and forecasting models. 
-
+Intended to be easily callable from an ML script or Jupyter notebook and used for tutorial or pedagogical purposes. 
 
 ## Air Passengers data set:
 Frequency: monthly.
