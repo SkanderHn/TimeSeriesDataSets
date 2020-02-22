@@ -6,10 +6,10 @@ Intended to be easily callable from an ML script or Jupyter notebook and used fo
 ## Air Passengers data set:
 **Frequency:** monthly. 
 **Metric:** Total number of international air passengers. 
-**Duration:** 1949-01 through 1960-12 / 12 years. 
-**Number of series:** 1. 
-**Number of data points:** 144. 
-**Missing values:** No.  
+**Duration:** 1949-01 through 1960-12 / 12 years.   
+**Number of series:** 1.   
+**Number of data points:** 144.   
+**Missing values:** No.    
 **Reference:** *Box and Jenkins (1976): Times Series Analysis: Forecasting and Control*   
 **Comments:** The "Iris data set" of time series forecasting and analysis.   
 
