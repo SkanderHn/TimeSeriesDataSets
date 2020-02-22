@@ -11,7 +11,7 @@ Intended to be easily callable from an ML script or Jupyter notebook and used fo
 **Number of data points:** 144.   
 **Missing values:** No.    
 **Reference:** *Box and Jenkins (1976): Times Series Analysis: Forecasting and Control*   
-**Comments:** The "Iris data set" of time series forecasting and analysis.   
+**Comments:** The "Iris data set" of time series forecasting and analysis. Clear linear trend and a multiplicative seasonal component - good for "sanity checking" a forecasting method.    
 
 ## Australian Tourism data set:
 **Frequency:** Quarterly.     
