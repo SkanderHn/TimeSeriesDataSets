@@ -11,8 +11,8 @@ air_passengers_url = ("https://github.com/SkanderHn/TimeSeriesDataSets/raw/maste
 df = pd.read_csv(air_passengers_url)
 ```
 Make sure that you are using the path with: 
-```"https://github.com/SkanderHn/TimeSeriesDataSets/raw/master/data/{file name}"```
-not
+```"https://github.com/SkanderHn/TimeSeriesDataSets/raw/master/data/{file name}"```   
+not  
 ```"https://github.com/SkanderHn/TimeSeriesDataSets/blob/master/data/{file name}"```
 
 If you use the url with "blob", you will get a Pandas parsing error. 
