@@ -4,12 +4,17 @@ Repo containing csv versions of canonical data sets used for benchmarking and an
 Intended to be easily callable from an ML script or Jupyter notebook and used for tutorial or pedagogical purposes. 
 
 ## Example of loading csv into script directly from repo:
-
+### Python
 ```
 import pandas as pd
 air_passengers_url = ("https://github.com/SkanderHn/TimeSeriesDataSets/raw/master/data/air_passengers.csv")
 df = pd.read_csv(air_passengers_url)
 ```
+### R 
+```
+data <- read.csv("https://github.com/SkanderHn/TimeSeriesDataSets/raw/master/data/air_passengers.csv")
+```
+
 Make sure that you are using the path with: 
 ```"https://github.com/SkanderHn/TimeSeriesDataSets/raw/master/data/{file name}"```   
 not  
